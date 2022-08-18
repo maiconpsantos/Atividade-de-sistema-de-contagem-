@@ -1,0 +1,11 @@
+let listadeacademia = ["maicon","brenda","junior","dani","amanda","magda","xitos"]
+
+for (let index = 0; index < listadeacademia.length; index++) {
+    //const element = array[index];
+    console.log (index)
+    if (index ==0){
+        console.log ("zero localizado:" + listadeacademia [index])
+    } else if (index % 2) {console.log ("impar:" + listadeacademia [index])}
+    else [console.log ("par:" + listadeacademia [index])]
+    console.log [listadeacademia]
+}
